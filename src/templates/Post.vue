@@ -32,7 +32,7 @@
 <script>
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
+import Author from '~/components/Author'
 
 export default {
   components: {
