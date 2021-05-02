@@ -1,29 +1,15 @@
-# Gridsome Blog Starter
+# [PITA.TECH](#)
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+I think it's my blog.
 
-## Features
-- Beautiful and simple design.
-- Markdown for content.
-- Tags support.
-- Dark / Light toggle.
-- CSS variables, SCSS & BEM for styling.
-- 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
+Pretty sure, actually.
 
-## Demo URL
+---
 
-https://gridsome-starter-blog.netlify.com
+Built with [Vue.js](). Based on (and originally cloned from) [Gridsome Blog Starter](https://gridsome.org/starters/gridsome-blog-starter/).
 
-## Install
+I plan on writing tech-related content, sometimes hands-on coding and occasionaly about the industry and how it interacts with our privacy and ethics.
 
-### 1. Install Gridsome CLI tool if you don't have
+---
 
-`npm install --global @gridsome/cli`
-
-### 2. Install this starter
-
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+purposefully uncopyrighted. No permission is needed to copy or distribute the content of this repo (code or otherwise). Credit is appreciated but not required.
