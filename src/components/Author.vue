@@ -1,23 +1,24 @@
 <template>
-	<div class="author">
+  <div class="author">
+    <h1 class="author__site-title">
+      {{ $static.metadata.siteName.toUpperCase() }}
+    </h1>
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.png" width="180" height="180" blur="5" />
-
-		<h1 v-if="showTitle" class="author__site-title">
-			Pita's Tech Blog
-			<!-- {{ $static.metadata.siteName }} -->
-		</h1>
-
-		<p class="author__intro">
-			I hope you love hummus.
-		</p>
-
-		<p class="author__links">
-			<a href="//twitter.com/gridsome">Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
-		</p>
-
-	</div>
+    <div class="author__section">
+      <g-image
+        alt="Author image"
+        class="author__image"
+        src="~/assets/images/pita.png"
+        width="200"
+        height="200"
+        blur="5"
+      />
+      <div class="author__intro">
+        <p>A tech blog</p>
+        <p>by Pitamer</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <static-query>
@@ -28,39 +29,44 @@ query {
 }
 </static-query>
 
-<script>
-export default {
-	props: ['showTitle']
-}
-</script>
-
 <style lang="scss">
 .author {
-	margin: 0 auto;
-	max-width: 500px;
-	text-align: center;
-	padding: calc(var(--space) / 2) 0;
+  margin: 0 auto var(--space) auto;
+  max-width: 560px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-bottom: var(--space);
+  // > * {border: 1px red dashed;}
 
-	&__image {
-		border-radius: 100%;
-		width: 90px;
-		height: 90px;
-		margin-bottom: 1em;
-	}
+  &__section {
+    display: flex;
+    align-items: center;
+    margin: 0.75em 0;
+  }
 
-	&__intro {
-		opacity: .8;
-	}
+  &__image {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0px 0px 4px var(--image-shadow-color));
+  }
 
-	&__site-title {
-		font-size: 1.5em;
-	}
+  &__intro {
+    margin: 0 0 0 1em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    p {
+      opacity: 0.8;
+      margin: 4px 0;
+      text-align: left;
+    }
+  }
 
-	&__links {
-		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
-		}
-	}
+  &__site-title {
+    font-family: "bungee";
+    font-size: 1.9em;
+    margin-bottom: 0;
+  }
 }
 </style>
