@@ -15,7 +15,7 @@
 <page-query>
 query Tag ($id: ID!) {
   tag (id: $id) {
-    title
+    # // title
     belongsTo {
       edges {
         node {

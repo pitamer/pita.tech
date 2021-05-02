@@ -68,12 +68,12 @@ query Post ($id: ID!) {
     timeToRead
     tags {
       id
-      title
+      # // title
       path
     }
     description
     content
-    cover_image (width: 860, blur: 10)
+    # // cover_image (width: 860, blur: 10)
   }
 }
 </page-query>
