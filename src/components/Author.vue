@@ -15,7 +15,11 @@
       />
       <div class="author__intro">
         <p>A tech blog</p>
-        <p>by Pitamer</p>
+        <p>by
+          <g-link class="post-card__link" :to="'https://github.com/pitamer'">
+            Pitamer
+          </g-link>
+        </p>
       </div>
     </div>
   </div>

@@ -57,6 +57,8 @@ Finally, it's a safe bet that the worst is yet to come. Silently sneaking on use
 
 This time there is no opt-out; **you either agree or you're out.** I'm personally very reluctant to agree to these terms, especially given the abundance of other messaging apps that are just as good.
 
+We just need to get more people to use them.
+
 ### Let's explore some alternatives
 
 Skipping the horde of collaboration-oriented messaging apps that's been blooming lately (Slack, Discord, Mattermost, Wickr Me etc.), we can move on to the apps that are truly WhatsApp-esque in nature.
@@ -67,7 +69,7 @@ So let's search further.
 
 Probing the stockpile of other tech conglomerates, we find **Google Messages** (which is, expectedly, colossal privacy-wise) and **iMessage**, which will force you to neglect your friends who don't own Apple products. Skype can be skipped as it's not really WhatsApp-analogous.
 
-### Enter Signal.
+### Enter Signal
 
 It's free. It's open-source. It's simple enough to use for your grandma to pick it up without noticing it's a different app. It's more secure than WhatsApp, and it collects no data about you whatsoever.
 
