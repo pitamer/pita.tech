@@ -51,7 +51,7 @@
 export default {
   data() {
     return {
-      darkTheme: false,
+      darkTheme: true,
     };
   },
   methods: {
@@ -63,7 +63,7 @@ export default {
     },
   },
   mounted() {
-    if (window.__theme == "dark") this.darkTheme = true;
+    if (window.__theme !== "dark") this.darkTheme = false;
   },
 };
 </script>
@@ -102,7 +102,7 @@ export default {
     place-items: center;
     margin: 0 1px;
     transition: 0.2s ease-out;
-    
+
     .feather {
       opacity: 0.55;
       transition: opacity 0.1s linear;
